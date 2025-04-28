@@ -25,3 +25,12 @@ h2 {
     box-shadow: 11px 12px 19px -4px rgba(194, 45, 45, 0.84);
     border: 4px double #de1500;
 }
+.destacados{
+    color:red;
+font-style: italic;
+}
+#caja2{
+    width: 500px;
+    height: 250px;
+    background: red;
+}
