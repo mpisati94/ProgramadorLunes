@@ -1,0 +1,24 @@
+#titulo{
+   background-color: brown;
+   height: 45px;
+   display: relative;
+}
+#contenedor{
+   display:block;
+   background-color: aqua;
+   margin-top: auto;
+   margin-bottom: auto;
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   
+}
+#resaltado{
+   color: blueviolet;
+}
+.subtitulos{
+   display: flex;
+   position: relative;
+   background-color: rgb(14, 118, 236);
+   height: 40px; 
+   width: 100px;
+  box-shadow: 5px -14px 19px -4px rgba(0,0,0,0.56);
+}
