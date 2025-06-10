@@ -64,3 +64,17 @@ margin:4px 0;
     padding: 50px 20px;
     background-color: #dadada;
 }
+
+.staff{
+    background: #efefef
+}
+.iframe{
+    width: 100%;
+    aspect-ratio: 1.2;
+}
+html{
+    scroll-behavior: smooth;
+}
+.scroll_selection{
+    scroll-margin-top: 60px;
+}
