@@ -50,16 +50,20 @@
                 <ul class=" lista-novedades">
                     <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
                                 src="img/novedades01.jpg" />Receta1</a></li>
-                    <li><a href="#"><img src="img/novedades01.jpg" alt="">Receta2</a></li>
-                    <li><a href="#"><img src="img/novedades01.jpg" alt="">Receta3</a></li>
-                    <li><a href="#"><img src="img/novedades01.jpg" alt="">Receta4</a></li>
-                    <li><a href="#"><img src="img/novedades01.jpg" alt="">Receta5</a></li>
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1"><img src="img/novedades01.jpg"
+                                alt="">Receta2</a></li>
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2"><img src="img/novedades01.jpg"
+                                alt="">Receta3</a></li>
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal3"><img src="img/novedades01.jpg"
+                                alt="">Receta4</a></li>
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal4"><img src="img/novedades01.jpg"
+                                alt="">Receta5</a></li>
                 </ul>
             </div>
 
             <!-- cierra novedades -->
 
-            <!-- inicio Modal -->
+            <!-- inicio Modal gral-->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog">
@@ -75,7 +79,71 @@
                     </div>
                 </div>
             </div>
-            <!-- fin del modal -->
+            <!-- modal 1 -->
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Prueba 1</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h2>Modal prueba</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fin modal 1 -->
+            <!-- modal 2 -->
+             <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Prueba 2</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h2>Modal de prueba 2</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fin modal 2 -->
+            <!-- modal 3 -->
+             <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Prueba 3</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h2>Modal de prueba 3</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- fin modal 3 -->
+            <!-- modal 4 -->
+             <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Prueba 4</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h2>Modal de prueba 4</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fin modal 4 -->
+            <!-- fin del modal gral -->
             <div class="col-md-3">
                 <div class="rounded py-3 testimonios ">
                     <h2 class="testimonios align-self-center">Testimonios</h2>
@@ -205,27 +273,27 @@
                     <h2>Contactanos</h2>
                     <form class="row g-3">
                         <div class="col-md-6">
-                            <label for="inputEmail4" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="inputEmail4">
+                            <label for="inputEmail4" class="form-label">E-mail</label>
+                            <input type="email" class="form-control-3" id="inputEmail4">
                         </div>
                         <div class="col-12">
                             <label for="inputAddress" class="form-label">Direccion</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                            <input type="text" class="form-control-1" id="inputAddress" placeholder="Direccion 123">
                         </div>
                         <div class="col-md-6">
                             <label for="inputCity" class="form-label">Ciudad</label>
-                            <input type="text" class="form-control" id="inputCity">
+                            <input type="text" class="form-control-10px" id="inputCity">
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-8">
                             <label for="inputState" class="form-label">Localidad</label>
-                            <select id="inputState" class="form-select">
+                            <select id="inputState" class="form-select-10px">
                                 <option selected>CABA</option>
                                 <option>Buenos aires</option>
                             </select>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-3">
                             <label for="inputZip" class="form-label">C.P</label>
-                            <input type="text" class="form-control" id="inputZip">
+                            <input type="text" class="form-control-2" id="inputZip">
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary">Enviar</button>
